@@ -44,9 +44,9 @@ const counterStore = useCounterStore();
             </svg>
             <span class="sr-only">Toggle sidebar</span>
           </button>
-          <a href="https://flowbite.com" class="flex items-center justify-between mr-4">
+          <router-link to="/" class="flex items-center justify-between mr-4">
             <span class="self-center text-2xl font-semibold whitespace-nowrap text-[#14b8a6]">E-commerce Dashboard</span>
-          </a>
+          </router-link>
           
         </div>
         <div class="flex items-center lg:order-2">
